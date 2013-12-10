@@ -8,5 +8,4 @@ server_config = {
 mongo_provider = new MongoProvider(server_config , function(error, connected){
   if(error) throw error
   console.log('CONNECTED: ', connected);
-}); 
-
+});
